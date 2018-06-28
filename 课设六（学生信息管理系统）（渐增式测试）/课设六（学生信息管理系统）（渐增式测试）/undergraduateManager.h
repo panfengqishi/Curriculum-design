@@ -193,7 +193,7 @@ void UndergraduateManager::dataManage()
 }
 void UndergraduateManager::dataSave()//存储资料函数,将read[]写入Undergraduate.txt文件中
 {
-	fstream file("Undergraduate.txt",ios::out);
+	fstream file("Undergraduate.dat",ios::out);
 	for (int i=0;i<=top;i++)
 		file.write((char *)&undergraduates[i],sizeof(undergraduates[i]));
 	file.close();
@@ -202,7 +202,7 @@ void UndergraduateManager::dataRead() //构造函数,将Undergraduate.txt读到read[]中
 {
 	UnderGraduate s;
 	top=-1;
-	fstream file("Undergraduate.txt",ios::in);
+	fstream file("Undergraduate.dat",ios::in);
 	while (1)
 	{
 		file.read((char *)&s,sizeof(s));
