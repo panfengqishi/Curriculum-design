@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "课设四（哈夫曼编码）", "课设四（哈夫曼编码）\课设四（哈夫曼编码）.vcxproj", "{DCAA67D6-6B22-4552-8E7A-AAC0821B028E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCAA67D6-6B22-4552-8E7A-AAC0821B028E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DCAA67D6-6B22-4552-8E7A-AAC0821B028E}.Debug|Win32.Build.0 = Debug|Win32
+		{DCAA67D6-6B22-4552-8E7A-AAC0821B028E}.Release|Win32.ActiveCfg = Release|Win32
+		{DCAA67D6-6B22-4552-8E7A-AAC0821B028E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
