@@ -66,7 +66,7 @@ void CreateEliminateArr(int n,int m){
 	if(n>=3){
 		//消除列中相同的元素
 		for(int j=1;j<=m;j++){
-			for(int i=1;i<n-2;i++){
+			for(int i=1;i<n-1;i++){
 				if((arr[i][j].data==arr[i+1][j].data)&&(arr[i][j].data==arr[i+2][j].data)){
 					arr[i][j].IsEliminate=true;
 					arr[i+1][j].IsEliminate=true;
